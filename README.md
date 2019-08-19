@@ -22,7 +22,10 @@ A hiking app integrates front-end and back-end skills as Node, Express, Handleba
    MVC design, HeroKu/GitHub
 
 ### Check out the app!
-https://shielded-springs-34062.herokuapp.com/
+#### GitHub Link
+https://github.com/helenhao888/HikeItApp.git
+#### HeroKu Live Link
+https://floating-lowlands-77335.herokuapp.com/
 
 ### Contributors
 ##### Chris Williams
