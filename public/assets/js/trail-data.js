@@ -87,8 +87,8 @@ $(".login-existing-user").on("click", function (event) {
     event.preventDefault();
     console.log("here");
     //the variable userName can contain either the username OR email address   
-    var userName = $("#userName").val().trim();
-    var password = $("#password").val().trim();
+    var userName = $("#login-username").val().trim();
+    var password = $("#login-password").val().trim();
 
     //store this information in an object to send to the backend team
 
@@ -98,12 +98,14 @@ $(".login-existing-user").on("click", function (event) {
     };
     console.log(loginInfo);
 
-    $.ajax("/log-in", {
+    $.ajax("/login", {
         method: "POST",
         data: loginInfo
     }).then(
         function (response) {
             console.log(response);
+             //redirect to dashboard-search page
+             window.location.href = "/dashboard-search";
         }
     ).catch(function (err) {
         console.log(err);

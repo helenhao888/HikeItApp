@@ -15,8 +15,7 @@ exports.homeMsg = function (req, res) {
 exports.dashboard = function (req, res) {
     
     var userObj = req.user;  
-    userObj.success = true;    
-    console.log("dashboard userObj",userObj);
+    userObj.success = true;       
   
     res.render("dashboard-search",userObj ); 
     
@@ -24,14 +23,13 @@ exports.dashboard = function (req, res) {
 
 exports.profile = function (req,res){
     var userObj = req.user;  
-    userObj.success = true;    
-    console.log("profile userObj",userObj);
+    userObj.success = true;     
   
     res.render("user-profile",userObj ); 
 }
 
 exports.prelogin = function (req,res){
-    console.log("prelogin");
+   
     res.render("log-in");
 }
 

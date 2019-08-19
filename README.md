@@ -39,8 +39,10 @@ https://shielded-springs-34062.herokuapp.com/
    ![After signing up](public/assets/images/afterSignup.jpg)
 
 2. User Login
-   An existing user signs in, validate the input user name and password, if succeeds, navigate the page to search trail page.
+   An existing user signs in, validate the input user name and password
    ![login](public/assets/images/login.jpg)
+   If succeeds, navigate the page to search trail page.
+   ![After login](public/assets/images/afterLogin.jpg)
 
 3. Profile 
    View the user's profile information if user is logged in, otherwise navigate to the home page.  
@@ -56,7 +58,7 @@ https://shielded-springs-34062.herokuapp.com/
 
 6. Logout
    When user clicks logout button, logout the user and navigate to home page.
-   ![logout](public/assets/images/logout.jpg)
+   
 
 #### Directory structure
 ```
