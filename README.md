@@ -13,12 +13,12 @@ A hiking app integrates front-end and back-end skills as Node, Express, Handleba
 
 
 ### Technologies Used
-*  Front-End
+*  Front-End: 
    HTML5, CSS3, javascript, jQuery, Bootstrap
-*  MiddleWare and Back-End
+*  MiddleWare and Back-End: 
    Node.js, Express.js, MySQL, Sequelize, Handlebars
    Passport.js, Express-session, bcryptjs, connect-flash
-*  Other
+*  Other: 
    MVC design, HeroKu/GitHub
 
 ### Check out the app!
