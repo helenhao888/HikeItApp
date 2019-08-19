@@ -1,9 +1,9 @@
 // Requiring our models
 var db = require("../models");
 module.exports = function (app) {
-    app.get("/log-in", function (req, res) {
-        res.render("log-in");
-    });
+    // app.get("/log-in", function (req, res) {
+    //     res.render("log-in");
+    // });
 
     app.get("/trails/:city", function (req, res) {
 
@@ -30,12 +30,13 @@ module.exports = function (app) {
 
 
     app.post("/trails/add", function (req, res) {
-        console.log(req.body);
+        console.log(req);
+        console.log(req.user);
 
 
         // if (req.isAuthenticated()) {
             db.Trail.create({
-                // userName: req.user.userName,
+                // userName: "req.user.userName",
                 trailName: req.body.trailName,
                 trailAddress: req.body.trailAddress,
                 trailCity: req.body.trailCity,

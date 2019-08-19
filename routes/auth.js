@@ -7,7 +7,7 @@ module.exports = function (app, passport) {
 
     app.get('/', authController.home);
 
-    // app.get("/homeMsg",authController.homeMsg);
+    app.get("/homeMsg",authController.homeMsg);
        
     app.get('/logout', authController.logout);
 

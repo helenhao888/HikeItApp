@@ -1,7 +1,7 @@
 {
-  "name": "project-2",
+  "name": "HikeItApp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A community-based application for finding hiking trails near you.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,30 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pariscornett/Project-2.git"
+    "url": "git+https://github.com/helenhao888/HikeItApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pariscornett/Project-2/issues"
+    "url": "https://github.com/helenhao888/HikeItApp/issues"
   },
-  "homepage": "https://github.com/pariscornett/Project-2#readme",
+  "homepage": "https://github.com/helenhao888/HikeItApp#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
-    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.16.2",
     "fs": "0.0.1-security",
     "mysql": "^2.17.1",
     "mysql2": "^1.6.5",
-    "nodemon": "^1.19.1",
+    "node": "^12.8.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
-    "sequelize": "^5.12.3"
+    "sequelize": "^5.15.1"
   }
 }

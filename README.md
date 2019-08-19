@@ -13,13 +13,12 @@ A hiking app integrates front-end and back-end skills as Node, Express, Handleba
 
 
 ### Technologies Used
-## Front-End
+*  Front-End
    HTML5, CSS3, javascript, jQuery, Bootstrap
-## MiddleWare 
-## Back-End
+*  MiddleWare and Back-End
    Node.js, Express.js, MySQL, Sequelize, Handlebars
    Passport.js, Express-session, bcryptjs, connect-flash
-## Other
+*  Other
    MVC design, HeroKu/GitHub
 
 ### Check out the app!
@@ -34,8 +33,10 @@ https://shielded-springs-34062.herokuapp.com/
 
 ### Screenshots
 1. User Sign up
-   Whenever a user signs up, show the sign up form, validate the input fields and create a new user. After that navigate the page to search trail page.
+   Whenever a user signs up, show the sign up form, validate the input fields and create a new user. 
    ![sign up](public/assets/images/signup.jpg)
+   After that navigate the page to search trail page.
+   ![After signing up](public/assets/images/afterSignup.jpg)
 
 2. User Login
    An existing user signs in, validate the input user name and password, if succeeds, navigate the page to search trail page.
@@ -55,7 +56,7 @@ https://shielded-springs-34062.herokuapp.com/
 
 6. Logout
    When user clicks logout button, logout the user and navigate to home page.
-   ![logout](public/assets/img/noBurgerName.png)
+   ![logout](public/assets/images/logout.jpg)
 
 #### Directory structure
 ```

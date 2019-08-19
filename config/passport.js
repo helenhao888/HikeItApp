@@ -82,10 +82,10 @@ module.exports = function (passport, user){
         usernameField: 'userName',
         passwordField: 'password',
         passReqToCallback: true //  pass back the entire request to the callback
-    }, function (req, userName, password, done) {
+    }, function (req, username, password, done) {
         var User = user;
 
-        console.log("signin  user name",userName);
+        console.log("signin  user name",username);
         console.log("password",password);
         var isValidPassword = function (userpass, password) {
             return bcrypt.compareSync(password, userpass);
@@ -95,7 +95,7 @@ module.exports = function (passport, user){
    
         User.findOne({
             where: {
-                userName: userName
+                userName: username
             }
         }).then(function (user) {            
             

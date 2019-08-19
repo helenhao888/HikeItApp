@@ -6,6 +6,12 @@ exports.home = function (req, res) {
 }
 
 
+exports.homeMsg = function (req, res) {
+  
+    console.log("home page msg",req.flash("error"));
+    res.json({success:false,message: req.flash("error")});
+}
+
 exports.dashboard = function (req, res) {
     
     var userObj = req.user;  
@@ -32,6 +38,6 @@ exports.prelogin = function (req,res){
 exports.logout = function (req, res) {
     
     req.session.destroy(function (err) {
-        res.redirect('/log-in');
+        res.redirect('/');
     })
 }

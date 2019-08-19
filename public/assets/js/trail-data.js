@@ -71,17 +71,18 @@ $("#search").on("click", function (event) {
 
 //opens up existing user login form
 $("#existing-user-login").on("click", function (event) {
-    event.preventDefault();
-
+    event.preventDefault();    
     $.ajax("/prelogin", {
         method: "GET",
-
+        data: ""
+    }).then(function(response){
+        console.log("response",response);
+        window.location.href = "/prelogin";
     })
-    window.location.href = "/log-in"
 });
 
 //listens for click on submit button for the "log in" form
-$("#login-existing-user").on("click", function (event) {
+$(".login-existing-user").on("click", function (event) {
 
     event.preventDefault();
     console.log("here");
@@ -97,7 +98,7 @@ $("#login-existing-user").on("click", function (event) {
     };
     console.log(loginInfo);
 
-    $.ajax("/login", {
+    $.ajax("/log-in", {
         method: "POST",
         data: loginInfo
     }).then(
