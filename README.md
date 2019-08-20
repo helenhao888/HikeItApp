@@ -108,3 +108,9 @@ https://floating-lowlands-77335.herokuapp.com/
     ├── log-in.handlebars
     └── user-profile.handlebars   
 ```
+
+### Contact Information
+
+   Helen Hao :
+   :link:[linkedIn](https://www.linkedin.com/in/jinzhao-helen-hao-611b3752/) 
+   :link:[Portfolio](https://helenhao888.github.io)    
